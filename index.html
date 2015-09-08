@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/scripts.js"></script>
+	<meta charset="UTF-8">
+	<title>Triangle Checker</title>
+</head>
+<body>
+	<div class="container">
+      <h1>Triangle Checker</h1>
+
+      <form id="triangle-checker">
+        <div class="form-group">
+          <label for="side-1">Enter Side One:</label>
+          <input id="side-1" type="number" require>
+        </div>
+		<div class="form-group">
+          <label for="side-2">Enter Side Two:</label>
+          <input id="side-2" type="number" require>
+        </div>
+		<div class="form-group">
+          <label for="side-3">Enter Side Three:</label>
+          <input id="side-3" type="number" require>
+        </div>
+
+        <button type="submit" class="btn">Find out!</button>
+      </form>
+
+      <div id="result">
+        <p>This is a <span class="triangle"></span> triangle!</p>
+      </div>
+    </div>
+	
+</body>
+</html>
